@@ -39,12 +39,13 @@ app.post('/webhook', function(req, res) {
         // Nếu người dùng gửi tin nhắn đến
         if (message.message.text) {
           var text = message.message.text;
-          if(text == 'hi' || text == "hello" || text == 'Hi')
+          if()
           {
             sendMessage(senderId, "Thongnv Bot: " + 'Xin Chào');
           }
           else{sendMessage(senderId, "Thongnv Bot: " + "Xin lỗi, câu hỏi của bạn chưa có trong hệ thống, chúng tôi sẽ cập nhật sớm nhất.");}
         }
+      else{sendMessage(senderId, "chon ngon ngu");}  
       }
     }
   }
