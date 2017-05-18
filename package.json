@@ -1,0 +1,19 @@
+{
+  "name": "vanvan-bot",
+  "version": "1.0.0",
+  "description": "Bot connect everything",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thongnvmail/vanvan-bot.git"
+  },
+  "author": "Thongnv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thongnvmail/vanvan-bot/issues"
+  },
+  "homepage": "https://github.com/thongnvmail/vanvan-bot#readme"
+}
